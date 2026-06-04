@@ -617,12 +617,12 @@ $new_arrivals = $pdo->query("
 <div class="ticker">
     <div class="ticker-inner">
         <?php for($i=0;$i<2;$i++): ?>
-        <span class="ticker-item">Free shipping above ₹500</span>
-        <span class="ticker-item">New arrivals every week</span>
-        <span class="ticker-item">Easy 30-day returns</span>
-        <span class="ticker-item">Secure payments</span>
-        <span class="ticker-item">Use code FIRST10 for 10% off</span>
-        <span class="ticker-item">COD available</span>
+// Change generic messages to Artha-branded ones:
+<span class="ticker-item">Free shipping above ₹500</span>
+<span class="ticker-item">Proudly Indian 🇮🇳</span>
+<span class="ticker-item">Easy 30-day returns</span>
+<span class="ticker-item">Use code ARTHA10 for 10% off</span>
+<span class="ticker-item">COD available across India</span>
         <?php endfor; ?>
     </div>
 </div>
@@ -821,8 +821,8 @@ $new_arrivals = $pdo->query("
 <!-- ── Newsletter ─────────────────────────────────────────── -->
 <div class="newsletter">
     <div class="newsletter-label">Stay in the loop</div>
-    <h2 class="newsletter-title">Join Our Newsletter</h2>
-    <p class="newsletter-sub">Get early access to new drops, exclusive offers & style inspiration.</p>
+    <h2 class="newsletter-title">Join the Artha Family</h2>
+<p class="newsletter-sub">Be the first to know about new arrivals, exclusive deals and festive offers.</p>
     <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
         <input type="email" placeholder="Enter your email address" required>
         <button type="submit">Subscribe</button>
