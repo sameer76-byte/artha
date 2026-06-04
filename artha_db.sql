@@ -4,11 +4,11 @@
 --  Created for: Full-stack PHP/MySQL E-Commerce Website
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS ecommerce_db
+CREATE DATABASE IF NOT EXISTS artha_db
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE ecommerce_db;
+USE artha_db;
 
 -- ============================================================
 -- 1. ROLES

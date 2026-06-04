@@ -9,9 +9,9 @@ define('ENV', 'development');   // 'development' | 'production'
 define('DEBUG', ENV === 'development');
 
 // --- Site --------------------------------------------------
-define('SITE_NAME',    'MyShop');
-define('SITE_URL',     'http://localhost/ecommerce');   // no trailing slash
-define('SITE_EMAIL',   'support@myshop.com');
+define('SITE_NAME', 'Artha');
+define('SITE_URL',  'http://localhost/artha');
+define('SITE_EMAIL','support@artha.com');
 
 // --- Paths -------------------------------------------------
 define('ROOT_PATH',    dirname(__DIR__));               // /path/to/ecommerce
